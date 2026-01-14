@@ -1,27 +1,43 @@
-# Automated LinkedIn Job Tracker
+## Automated LinkedIn Job Tracker
 
 This project automates LinkedIn job tracking using RSS feeds, workflow automation, and generative AI.
 
-## 🔹 Features
+## Problem Statement
+Manual job tracking is inefficient and time-consuming.
+
+## Solution
+An automated system using RSS + GenAI to summarize and filter jobs.
+
+## Project Structure
+automated-linkedin-job-tracker/
+│
+├── README.md
+├── workflow/
+│   └── n8n-workflow.json
+├── prompts/
+│   └── gemini-prompt.txt
+├── screenshots/
+│   ├── workflow.png
+│   ├── rss-feed.png
+│   ├── prompt.png
+│   └── output.png
+└── docs/
+    └── architecture.md
+    
+## Features
 - Fetches LinkedIn job postings via RSS feeds
 - Runs on a scheduled automation using n8n
 - Uses an LLM to summarize job details
 - Stores structured job data in Google Sheets
 
-## 🔹 Tech Stack
+## Tech Stack
 - n8n (Workflow Automation)
 - RSS Feeds
 - Google Sheets
 - Gemini / LLM
 
-## 🔹 Workflow Overview
-![Workflow](screenshots/workflow.png)
-
-## 🔹 Output Example
-![Output](screenshots/output.png)
-
-## 🔹 Use Case
+## Use Case
 Reduces manual job searching by automatically collecting and summarizing job postings.
 
-## 🔹 Note
+🔹 **Note**
 This project is for learning and automation purposes only.
