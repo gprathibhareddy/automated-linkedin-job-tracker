@@ -7,22 +7,6 @@ Manual job tracking is inefficient and time-consuming.
 
 ## Solution
 An automated system using RSS + GenAI to summarize and filter jobs.
-
-## Project Structure
-automated-linkedin-job-tracker/
-│
-├── README.md
-├── workflow/
-│   └── n8n-workflow.json
-├── prompts/
-│   └── gemini-prompt.txt
-├── screenshots/
-│   ├── workflow.png
-│   ├── rss-feed.png
-│   ├── prompt.png
-│   └── output.png
-└── docs/
-    └── architecture.md
     
 ## Features
 - Fetches LinkedIn job postings via RSS feeds
